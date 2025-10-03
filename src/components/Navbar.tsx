@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
+        isScrolled || isMobileMenuOpen
           ? "bg-background/95 backdrop-blur-md shadow-premium"
           : "bg-transparent"
       }`}
@@ -45,7 +45,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img
-              src={isScrolled ? LogoLight : LogoDark}
+              src={isScrolled || isMobileMenuOpen ? LogoLight : LogoDark}
               alt="Deway Express"
               className="h-10 w-auto transition-all duration-300"
             />
@@ -75,14 +75,13 @@ const Navbar = () => {
             </Button>
             <Button asChild>
               <a
-                href="https://wa.me/233558230525" // replace with your WhatsApp number
+                href="https://wa.me/233558230525"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Request a Quote
               </a>
             </Button>
-
           </div>
 
           {/* Mobile Menu Button */}
@@ -124,7 +123,13 @@ const Navbar = () => {
                 Track Order
               </Button>
               <Button asChild className="w-full">
-                <Link to="/contact">Request Quote</Link>
+                <a
+                  href="https://wa.me/233558230525"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Request a Quote
+                </a>
               </Button>
             </div>
           </div>
