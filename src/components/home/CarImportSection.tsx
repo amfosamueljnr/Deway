@@ -10,6 +10,11 @@ import {
 import { Card } from "@/components/ui/card";
 import Autoplay from "embla-carousel-autoplay";
 
+// ✅ Import your flyers properly
+import BuyCar1 from "@/assets/Buy-car1.jpg";
+import BuyCar2 from "@/assets/Buy-car2.jpg";
+import BuyCar3 from "@/assets/Buy-car3.jpg";
+
 const benefits = [
   {
     icon: Search,
@@ -33,19 +38,15 @@ const benefits = [
   },
 ];
 
-// Placeholder images - can be easily replaced
-const carFlyers = [
-  "/src/assets/Buy-car1.jpg",
-  "/src/assets/Buy-car2.jpg",
-  "/src/assets/Buy-car3.jpg",
-];
+// ✅ Use the imported image variables here
+const carFlyers = [BuyCar1, BuyCar2, BuyCar3];
 
 const CarImportSection = () => {
   return (
     <section className="py-20 bg-background relative overflow-hidden">
       {/* Background accent */}
       <div className="absolute inset-0 bg-gradient-subtle opacity-50"></div>
-      
+
       <div className="container mx-auto px-4 relative z-10">
         {/* Heading */}
         <div className="text-center mb-16 animate-fade-in">
@@ -56,10 +57,10 @@ const CarImportSection = () => {
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Looking to import a car from abroad? Deway Express makes international 
-              car buying simple. We connect you with trusted dealers and auctions in 
-              the USA and beyond, handle all logistics, and ensure your vehicle arrives 
-              safely at your doorstep.
+            Looking to import a car from abroad? Deway Express makes international
+            car buying simple. We connect you with trusted dealers and auctions in
+            the USA and beyond, handle all logistics, and ensure your vehicle arrives
+            safely at your doorstep.
           </p>
         </div>
 
@@ -102,13 +103,6 @@ const CarImportSection = () => {
 
           {/* Right Column - Text Content */}
           <div className="animate-fade-in-right space-y-8">
-            {/* <p className="text-lg text-muted-foreground leading-relaxed">
-              Looking to import a car from abroad? Deway Express makes international 
-              car buying simple. We connect you with trusted dealers and auctions in 
-              the USA and beyond, handle all logistics, and ensure your vehicle arrives 
-              safely at your doorstep.
-            </p> */}
-
             {/* Benefits List */}
             <div className="space-y-4">
               {benefits.map((benefit, index) => (
@@ -130,14 +124,14 @@ const CarImportSection = () => {
             {/* CTA Button */}
             <div>
               <Button asChild>
-              <a
-                href="https://wa.me/233558230525" // replace with your WhatsApp number
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Buy a Car Now
-              </a>
-            </Button>
+                <a
+                  href="https://wa.me/233558230525"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Buy a Car Now
+                </a>
+              </Button>
             </div>
           </div>
         </div>
