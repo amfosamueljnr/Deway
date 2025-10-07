@@ -8,6 +8,7 @@ import WorldwideSection from "@/components/home/WorldwideSection";
 import ReviewsCarousel from "@/components/home/ReviewsCarousel";
 import CommitmentSection from "@/components/home/CommitmentSection";
 import PartnersCarousel from "@/components/home/PartnersCarousel";
+import CarImportSection from "@/components/home/CarImportSection";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Navbar />
       <HeroSection />
       <StatsSection />
+      <CarImportSection />
       <WhyChooseUs />
       <WorldwideSection />
       <ReviewsCarousel />
