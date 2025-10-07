@@ -35,9 +35,9 @@ const benefits = [
 
 // Placeholder images - can be easily replaced
 const carFlyers = [
-  "/src/assets/Buy car1.jpg",
-  "/src/assets/Buy car2.jpg",
-  "/src/assets/Buy car3.jpg",
+  "/src/assets/Buy-car1.jpg",
+  "/src/assets/Buy-car2.jpg",
+  "/src/assets/Buy-car3.jpg",
 ];
 
 const CarImportSection = () => {
