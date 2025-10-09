@@ -97,12 +97,12 @@ const Footer = () => {
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
               <Facebook className="h-5 w-5" />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
+            <a href="https://www.instagram.com/dewayxpress?igsh=MWh1OWRldTQzMDY5ZA==" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
               <Instagram className="h-5 w-5" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
+            {/* <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
               <Linkedin className="h-5 w-5" />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
