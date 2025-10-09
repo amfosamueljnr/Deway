@@ -125,7 +125,7 @@ const CarImportSection = () => {
             <div>
               <Button asChild>
                 <a
-                  href="https://wa.me/233558230525"
+                  href="https://wa.me/233597096507"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

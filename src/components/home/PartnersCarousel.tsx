@@ -14,7 +14,7 @@ const partners = [
   { name: "UPS", logo: UPSLogo },
   { name: "Maersk", logo: MaerskLogo },
   { name: "Arkan", logo: ArkanLogo },
-  // { name: "Aramex", logo: AramexLogo },
+  { name: "KEID Auto LLC USA" },
   // { name: "SF Express", logo: SFLogo },
   // { name: "Blue Dart", logo: BlueDartLogo },
 ];

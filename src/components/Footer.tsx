@@ -51,6 +51,7 @@ const Footer = () => {
               <li>Freight Forwarding</li>
               <li>Pickup Service</li>
               <li>Warehousing</li>
+              <li>Buying and Selling of Cars</li>
               <li>Customs Clearance</li>
             </ul>
           </div>
